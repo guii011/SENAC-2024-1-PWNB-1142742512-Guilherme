@@ -1,0 +1,82 @@
+/* Estilização global do body */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #95e1eb; /* Define a cor de fundo */
+}
+
+/* Estilização para o container principal */
+.container {
+    max-width: 1200px; /* Define a largura máxima do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    padding: 20px; /* Adiciona preenchimento interno */
+}
+
+/* Estilização do título principal (h1) */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 38px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a fonte como negrito */
+    background-color: #06afe2; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    width: 400px; /* Define a largura */
+    height: auto; /* Define a altura automática */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    margin-top: 50px; /* Adiciona margem superior */
+    margin-bottom: 50px; /* Adiciona margem inferior */
+}
+
+/* Estilização para o container do mapa */
+.map-container {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 40px; /* Adiciona margem inferior */
+}
+
+/* Estilização para a seção de informações de contato */
+.contact-info {
+    display: flex; /* Define um layout flexível */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    flex-wrap: wrap; /* Permite a quebra de linha dos itens */
+}
+
+/* Estilização para os elementos de endereço e formulário de contato */
+.address, .contact-form {
+    flex: 1; /* Define a flexibilidade dos itens */
+    margin: 20px; /* Adiciona margem ao redor */
+    background-color: #06afe2; /* Define a cor de fundo */
+    padding: 20px; /* Adiciona preenchimento interno */
+    box-shadow: 0 0 10px rgba(235, 200, 2, 0.1); /* Adiciona sombra */
+}
+
+/* Estilização para o formulário de contato */
+.contact-form form {
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Alinha itens em coluna */
+}
+
+/* Estilização para os campos de entrada e textarea no formulário de contato */
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px; /* Adiciona margem inferior */
+    padding: 10px; /* Adiciona preenchimento interno */
+    border: 1px solid #ccc; /* Define a borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilização para o botão no formulário de contato */
+.contact-form button {
+    padding: 10px; /* Adiciona preenchimento interno */
+    border: none; /* Remove a borda */
+    background-color: #007BFF; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar clicabilidade */
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+/* Estilização para o botão no formulário de contato ao passar o mouse */
+.contact-form button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo ao passar o mouse */
+}

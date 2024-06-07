@@ -1,0 +1,51 @@
+/* Estilizando a classe .dados-info */
+.dados-info{
+  text-align: center; /* Alinhamento do texto ao centro */
+  color: rgb(0, 0, 0); /* Cor do texto */
+  width: 500px; /* Largura do elemento */
+  border-radius: 40px; /* Borda arredondada */
+  padding: 1px; /* Preenchimento interno */
+  color: white; /* Cor do texto (aparentemente duplicada, sugerindo que deveria ser alterada posteriormente) */
+  margin-top: 50px; /* Margem superior */
+}
+
+/* Estilizando o elemento <h1> */
+h1{
+  text-align: center; /* Alinhamento do texto ao centro */
+  font-size: 38px; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+  background-color: #06afe2; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border-radius: 10px; /* Borda arredondada */
+  width: 400px; /* Largura do elemento */
+  height: auto; /* Altura automática */
+  margin-left: auto; /* Margem esquerda automática para centralizar */
+  margin-right: auto; /* Margem direita automática para centralizar */
+  margin-top: 50px; /* Margem superior */
+  margin-bottom: 50px; /* Margem inferior */
+}
+
+/* Estilizando a classe .info */
+.info{
+  width: 400px; /* Largura do elemento */
+  height: 600px; /* Altura do elemento */
+  border-radius: 40px; /* Borda arredondada */
+  backdrop-filter: blur(10px); /* Efeito de desfoque */
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5); /* Sombra do elemento */
+  text-align: center; /* Alinhamento do texto ao centro */
+  margin: 50px; /* Margem ao redor do elemento */
+  margin-top: 0; /* Margem superior */
+  font-size: 20px; /* Tamanho da fonte */
+  padding: 20px; /* Preenchimento interno */
+  display: grid; /* Exibição em grade */
+  color: #303030; /* Cor do texto */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Família da fonte */
+}
+
+/* Estilizando a classe .icon4 */
+.icon4{
+  width: 350px; /* Largura da imagem */
+  height: 300px; /* Altura da imagem */
+  object-fit: cover; /* Ajusta a imagem sem deformação */
+  border-radius: 20px; /* Borda arredondada */
+}

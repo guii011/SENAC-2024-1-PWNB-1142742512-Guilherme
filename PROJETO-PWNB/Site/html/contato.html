@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importa o arquivo de estilo principal -->
+    <link href="..\css\style.css" rel="stylesheet" type="text/css" />
+    <!-- Importa o arquivo de estilo específico para a página de contato -->
+    <link rel="stylesheet" href="..\css\contato.css">
+    <title>Contato</title>
+    <!-- Importa a biblioteca de ícones FontAwesome -->
+    <script src="https://kit.fontawesome.com/6e9c638913.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navbar de navegação principal -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- Logotipo com link para a página inicial -->
+    <a class="navbar-brand" href=".\index.html"><img src="..\img\logo.png" class="logo" alt="Logotipo"></a>
+    <div class="container-fluid">
+      <!-- Ícone de menu responsivo -->
+      <span class="navbar-toggler-icon"></span>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!-- Links de navegação -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".\materias.html">MATÉRIAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">CONTATOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="politica.html">POLITICA DE PRIVACIDADE</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Conteúdo principal da página -->
+  <div id="content">
+
+    <div class="container">
+      <!-- Título da seção de contato -->
+      <h1>NOSSO CONTATO</h1>
+      <div class="map-container">
+        <!-- Mapa incorporado do Google Maps -->
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.171524804122!2d-46.70174168967804!3d-23.66982326549604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce515bb231b5ed%3A0x327b78892baef8e6!2zU2VuYWMgTmHDp8O1ZXMgVW5pZGFz!5e0!3m2!1spt-BR!2sbr!4v1715649214093!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="contact-info">
+        <div class="address">
+          <!-- Informações de endereço e telefone -->
+          <h2>ENDEREÇOS</h2>
+          <p><strong>ENDEREÇO 1</strong></p>
+          <p>Av. Eng. Eusébio Stevaux, 823<br>
+          Santo Amaro, São Paulo - SP, 04685-000</p>
+          <p><strong>TELEFONES</strong></p>
+          <p>(11) 5682-7300<br>
+          +55 1197070-7070</p>
+          <p><strong>ENDEREÇO 2</strong></p>
+          <p>Tr. Dr. Antônio Bento, 393<br>
+          Santo Amaro, São Paulo - SP, 04750-000</p>
+        </div>
+        <div class="contact-form">
+          <!-- Formulário de contato -->
+          <h2>FORMAS DE CONTATOS</h2>
+          <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Nome*" required>
+            <input type="email" name="email" placeholder="E-mail*" required>
+            <input type="tel" name="telefone" placeholder="Telefone">
+            <textarea name="comentarios" placeholder="Comentários*" required></textarea>
+            <button type="submit">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Rodapé da página -->
+      <footer>
+        <p>&copy; 2024 MedInsight. Todos os direitos reservados.</p>
+      </footer>
+
+      <!-- Script JavaScript -->
+      <script src="script.js"></script>
+
+</body>
+
+</html>
